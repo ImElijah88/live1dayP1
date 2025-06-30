@@ -1,4 +1,4 @@
-README: Phase 1 - Pre-Production - Episode 1
+Phase 1 - Pre-Production - Episode 1
 Overview
 Phase 1: Pre-Production - Episode 1 is the foundational stage of the "Live One Day Project." This phase is dedicated to the meticulous planning and preparation required before any filming begins for Episode 1. It ensures that every creative, legal, financial, and logistical detail is addressed, setting the stage for a smooth and successful on-location production.
 
