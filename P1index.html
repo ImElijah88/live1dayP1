@@ -54,6 +54,9 @@
             background-color: rgba(217, 119, 6, 0.1);
             border: 2px solid #D97706; /* Gold */
         }
+        .custom-audio-player {
+            background-color: rgba(217, 119, 6, 0.2); /* More transparent gold for inner player */
+        }
         .play-pause-btn {
             background-color: #D97706; /* Gold */
             color: #111827;
@@ -62,7 +65,7 @@
             background-color: #D97706; /* Gold */
         }
         .time-display {
-            color: #000000; /* Black for visibility on gold bg */
+            color: #111827; /* Black for visibility on gold bg */
             background-color: #D97706;
         }
     </style>
@@ -89,7 +92,8 @@
         <div class="audio-player-container p-4 mb-8 rounded-xl w-full md:w-3/4 lg:w-2/3 mx-auto">
             <h3 class="text-xl font-semibold text-white mb-3">Phase 1 Audio Overview</h3>
             <div class="custom-audio-player flex items-center gap-4">
-                <audio id="audioPlayer" src="P1audio.mp3" preload="auto"></audio>
+                <!-- Corrected audio source to match the uploaded file name -->
+                <audio id="audioPlayer" src="audioP1.mp3" preload="auto"></audio>
                 <button id="playPauseBtn" class="play-pause-btn w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
                     <i id="playPauseIcon" class="fas fa-play text-xl"></i>
                 </button>
